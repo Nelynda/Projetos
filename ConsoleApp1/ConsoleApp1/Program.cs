@@ -6,38 +6,43 @@ namespace ConsoleApp1
     {
         static void Main()
         {
-            Console.WriteLine("Escreva seu nome: ");
+            Console.WriteLine("Escreva seu nome:");
             string nome = Console.ReadLine();
 
             Console.WriteLine("Escreva seu sobrenome: ");
             string sobrenome = Console.ReadLine();
 
             Console.WriteLine("Escreva sua idade: ");
-            int idade  = Convert.ToInt16(Console.ReadLine());
+            int idade = Convert.ToInt16(Console.ReadLine());
 
             Console.WriteLine("Escreva seu CEP: ");
             string CEP = Console.ReadLine();
 
-            Console.WriteLine("Escreva seu endereco: ");
-            string endereco = Console.ReadLine();
+            Console.WriteLine("Escreva seu endereço: ");
+            string endereço = Console.ReadLine();
 
-            Console.WriteLine("Escreva seu bairro: ");
+            Console.WriteLine("Esccreva seu bairro: ");
             string bairro = Console.ReadLine();
 
-            Console.WriteLine("Escreva seu completo: ");
+            Console.WriteLine("Esccreva seu complemento: ");
             string complemento = Console.ReadLine();
 
-            Console.WriteLine("Escreva seu numero: ");
+            Console.WriteLine("Esccreva seu número: ");
             int numero = Convert.ToInt16(Console.ReadLine());
+
 
 
 
 
             Console.WriteLine(nome + " " + sobrenome);
 
-            Console.WriteLine("Aperte o enter para finalizar...");
+            Console.WriteLine("Aperte o enter para finalizar... ");
             Console.ReadLine();
+
             Console.WriteLine("Finalizou!");
+
+
+            //nome = nome + " " + sobrenome;
         }
     }
 }
